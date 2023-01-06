@@ -1,4 +1,3 @@
-using InitialAssignment.CRUD.UI.WebApp.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 

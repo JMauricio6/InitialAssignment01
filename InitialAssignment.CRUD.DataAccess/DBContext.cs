@@ -6,7 +6,7 @@ namespace InitialAssignment.CRUD.DataAccess
 {
     public class DBContext : DbContext
     {
-        public DbSet<Book>? Book { get; set; }
+        public DbSet<Book>? Books { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
