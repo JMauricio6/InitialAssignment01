@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k3WFYzgJB0cm/V/mNjOzWjDM/g0KIaLa0kTzUmncHwUo7cKB47ZEcapR0DmnEuoA9+FtsnfOEAOTOLMQUa/aug==",
+  "dgSpecHash": "bV+/zQBvACDhZ1CnPLUXL1Csvk1KEkoSYSMH7jdM7vnzlmFj3SgxMDzuACnRyM4tFmnWL6/ET+wcrTyyJKu78g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jmaur\\OneDrive\\Escritorio\\InitialAssignment\\InitialAssignment\\InitialAssignment.UI.WebApp\\InitialAssignment.CRUD.UI.WebApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jmaur\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\jmaur\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\jmaur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\jmaur\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jmaur\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\jmaur\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\jmaur\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",
