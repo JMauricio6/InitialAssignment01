@@ -57,7 +57,7 @@ namespace InitialAssignment.CRUD.DataAccess
             return books;
         }
 
-        public static async Task<List<Book>>GetAllAsync(Book pBook)
+        public static async Task<List<Book>>GetAllAsync()
         {
             var books = new List<Book>();
             using (var dbContext = new DBContext())
