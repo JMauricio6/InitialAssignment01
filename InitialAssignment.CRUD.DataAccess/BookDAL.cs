@@ -21,7 +21,7 @@ namespace InitialAssignment.CRUD.DataAccess
             int result = 0;
             using (var dbContext = new DBContext())
             {
-                var book = await dbContext.Book.FirstOrDefaultAsync(b => b.Id == pBook.Id);
+                var book = await dbContext.Books.FirstOrDefaultAsync(b => b.Id == pBook.Id);
                 book.Author = pBook.Author;
                 book.Classification = pBook.Classification;
                 book.Edition = pBook.Edition;
@@ -40,7 +40,7 @@ namespace InitialAssignment.CRUD.DataAccess
             int result = 0;
             using (var dbContext = new DBContext())
             {
-                var book = await dbContext.Book.FirstOrDefaultAsync(b => b.Id == pBook.Id);
+                var book = await dbContext.Books.FirstOrDefaultAsync(b => b.Id == pBook.Id);
                 dbContext.Remove(book);
                 result = await dbContext.SaveChangesAsync();
             }
@@ -52,7 +52,7 @@ namespace InitialAssignment.CRUD.DataAccess
             var books = new Book();
             using (var dbContext = new DBContext())
             {
-                books = await dbContext.Book.FirstOrDefaultAsync(b => b.Id == pBook.Id);
+                books = await dbContext.Books.FirstOrDefaultAsync(b => b.Id == pBook.Id);
             }
             return books;
         }
@@ -62,7 +62,7 @@ namespace InitialAssignment.CRUD.DataAccess
             var books = new List<Book>();
             using (var dbContext = new DBContext())
             {
-                books = await dbContext.Book.ToListAsync();
+                books = await dbContext.Books.ToListAsync();
             }
             return books;
         }
@@ -116,7 +116,7 @@ namespace InitialAssignment.CRUD.DataAccess
             var books = new List<Book>();
             using (var dbContext = new DBContext())
             {
-                var select = dbContext.Book.AsQueryable();
+                var select = dbContext.Books.AsQueryable();
                 select = QuerySelect(select, pBook);
                 books = await select.ToListAsync();
             }
